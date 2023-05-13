@@ -1,0 +1,23 @@
+As variáveis dentro de main, são locais, existem apenas no main, isso acontece em todas as funções.
+
+
+Each local variable in a function comes into existence only when the function is called, and disapperas when the function is exited.
+
+External variables: variáveis que podem ser acessadas de qualquer função e mantém o valor que foi atribuido dentro da função mesmo após o fim da função.
+    São definidas fora de qualquer função, exemplo:
+
+#include <stdio.h>
+
+#define MAXLINE 1000
+
+int max;
+char line[MAXLINE];
+char longet[MAXLINE];
+
+
+main ()
+{
+
+}
+
+e outras funções...
